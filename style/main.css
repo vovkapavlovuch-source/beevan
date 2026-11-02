@@ -44,4 +44,16 @@ img {
   width: 100%;
   height: auto;
   max-width: 100%;
+}
+
+.vehicle__image {
+  width: 150px;
+  height: 150px;
+}
+
+.footer {
+  background-color: grey;
+}
+.footer__logo {
+  width: 350px;
 }/*# sourceMappingURL=main.css.map */
