@@ -1,5 +1,4 @@
 .container {
-  max-width: 1200px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -44,6 +43,137 @@ img {
   width: 100%;
   height: auto;
   max-width: 100%;
+}
+
+.header {
+  padding: 10px 0;
+}
+@media screen and (min-width: 768px) {
+  .header {
+    padding: 21px 0;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header {
+    padding: 25px 0;
+  }
+}
+.header__box {
+  display: flex;
+  align-items: center;
+}
+@media screen and (min-width: 1200px) {
+  .header__box {
+    justify-content: none;
+    align-items: none;
+  }
+}
+.header__logo {
+  width: auto;
+  height: 50px;
+  margin-right: 400px;
+}
+@media screen and (min-width: 768px) {
+  .header__logo {
+    width: auto;
+    height: 50px;
+    margin-right: 600px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__logo {
+    height: 50px;
+    margin-right: 123px;
+  }
+}
+.header__tablet {
+  display: none;
+}
+@media screen and (min-width: 1200px) {
+  .header__tablet {
+    display: contents;
+  }
+}
+.header__nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 130px;
+}
+.header__links {
+  font-weight: 550;
+  font-size: 15px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+.header__boxing {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header__button {
+  width: 200px;
+  height: 33px;
+  margin-right: 69px;
+  border-radius: 10px;
+  background-color: #fcb06d;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header__whatsapp {
+  font-weight: 650;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header__nid {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header__eng {
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.header__listing {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.header__svg {
+  width: 30px;
+  height: 30px;
+}
+@media screen and (min-width: 1200px) {
+  .header__svg {
+    display: contents;
+  }
+}
+@media screen and (min-width: 768px) {
+  .header__svg-whatsapp {
+    display: none;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header__svg-whatsapp {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    fill: #212121;
+    margin-right: 10px;
+  }
 }
 
 .vehicle__image {

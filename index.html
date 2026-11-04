@@ -19,32 +19,60 @@
 <body>
     <!-- header -->
     <section class="header">
-        <a class="header__link" href="">
-            <img class="header__logo" src="./images/desktop/1update.png" alt="logo">
-        </a>
-        <nav class="header__nav">
-            <ul class="header__list">
-                <li class="header__item">Home</li>
-                <li class="header__item">Onze bus</li>
-                <li class="header__item">Voordelen</li>
-                <li class="header__item">Hoe te huren</li>
-                <li class="header__item">Contact</li>
-            </ul>
-        </nav>
-        <svg class="header__svg">
-            <use></use>
-        </svg>
-        <button type="button" class="header__butn">
-            <a class="header__whatsapp" href="">Schrijf op WhatsApp</a>
-        </button>
-        <a class="header__nid" href="./index.html">Nd</a>
-        <a class="header__eng" href="./england.html">En</a>
+        <div class="container">
+            <div class="header__box">
+                <a class="header__link" href="">
+                    <img class="header__logo" src="./images/desktop/1update.png" alt="logo">
+                </a>
+                <div class="header__tablet">
+                    <nav class="header__nav">
+                        <ul class="header__list">
+                            <li class="header__item">
+                                <a class="header__links" href="">Home</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__links" href="">Onze bus</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__links" href="">Voordelen</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__links" href="">Hoe te huren</a>
+                            </li>
+                            <li class="header__item">
+                                <a class="header__links" href="">Contact</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="header__boxing">
+                           
+                        <button type="button" class="header__button"> 
+                             <svg class="header__svg-whatsapp">
+                                <use href="./images/symbol-defs.svg#icon-whatsapp"></use>
+                            </svg>
+                            <a class="header__whatsapp" href="">Schrijf op WhatsApp</a>
+                        </button>
+                        <ul class="header__listing">
+                            <li class="header__items">
+                                <a class="header__nid" href="./index.html">Nd</a>
+                            </li>
+                            <li class="header__items">
+                                <a class="header__eng" href="./england.html">En</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <svg class="header__svg">
+                    <use href="./images/symbol-defs.svg#icon-menu"></use>
+                </svg>
+            </div>
+        </div>
     </section>
     <!-- hero -->
     <section class="hero">
         <h2 class="hero__title">Busverhuur voor uw klussen</h2>
-        <h3 class="hero__subtitle">Betroubaar transport voor het vervoeren van vracht, meubels, apparatuur en al uw
-            behoeften.</h3>
+        <h3 class="hero__subtitle">Betroubaar transport voor het vervoeren van vracht, meubels, apparatuur en al
+            uwbehoeften.</h3>
         <button type="button" class="hero__butn">
             <a class="hero__whatsapp" href="">Schrijf op WhatsApp</a>
             <!-- <svg class="hero__svg">
