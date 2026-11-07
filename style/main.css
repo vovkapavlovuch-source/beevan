@@ -121,8 +121,8 @@ img {
   width: 200px;
   height: 33px;
   margin-right: 69px;
-  border-radius: 10px;
-  background-color: #fcb06d;
+  border-radius: 15px;
+  background-color: #ffbc57;
   border: none;
   display: flex;
   justify-content: center;
@@ -174,6 +174,98 @@ img {
     fill: #212121;
     margin-right: 10px;
   }
+}
+
+.hero {
+  padding-top: 60px;
+  padding-bottom: 35px;
+  background-image: url(../images/mobile/car3.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+@media screen and (min-width: 768px) {
+  .hero {
+    background-image: url(../images/tablet/car2.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .hero {
+    background-position: center right;
+    min-height: 60vh;
+    background-image: url(../images/desktop/car1.jpg);
+  }
+}
+.hero__title {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: white;
+}
+.hero__subtitle {
+  font-size: 46px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: #ffbc57;
+  margin-bottom: 10px;
+}
+.hero__text {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.2;
+  letter-spacing: 0.05em;
+  color: rgb(196, 195, 195);
+  max-width: 350px;
+  margin-bottom: 16px;
+}
+.hero__butn {
+  width: 260px;
+  height: 50px;
+  margin-right: 69px;
+  border-radius: 15px;
+  background-color: #ffbc57;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.hero__whatsapp {
+  font-weight: 650;
+  font-size: 18px;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+.hero__svg {
+  width: 25px;
+  height: 25px;
+  fill: #212121;
+  margin-right: 10px;
+}
+.hero__photo {
+  width: 36px;
+  height: 36px;
+  fill: #ffbc57;
+  margin-right: 10px;
+}
+.hero__list {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 15px;
+}
+.hero__item {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.hero__subtext {
+  font-weight: 650;
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  color: rgb(196, 195, 195);
+  max-width: 80px;
 }
 
 .vehicle__image {
